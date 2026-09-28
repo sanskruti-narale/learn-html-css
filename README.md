@@ -8,17 +8,19 @@ Personal repository to track my HTML & CSS learning journey — concepts, exerci
 
 ## 📁 Structure
 
+```text
 learn-html-css/
 ├── Fundamentals/
-│   ├── Concepts/
-│   └── Exercises/
-├── Projects/
-│   └── youtube-clone/
-│       ├── channel-pictures/
-│       ├── styles/
-│       └── thumbnails/
-├── youtube.html
-└── README.md
+├── Concepts/
+├── Exercises/
+└── Projects/
+    └── youtube-clone/
+        ├── channel-pictures/
+        ├── styles/
+        ├── thumbnails/
+        ├── youtube.html
+        └── README.md
+```
 
 ---
 
