@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position practice</title>
+  <style>
+    .first-sidebar {
+      position:fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(33, 33, 33);
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .picture {
+      width:50px;
+      height:50px;
+      border-radius: 50px;
+      margin-right: 10px;
+      margin-bottom: 8px;
+      object-fit: cover;
+    }
+
+    .second-sidebar {
+      position:fixed;
+      top: 0;
+      left: 70px;
+      bottom: 0;
+      width:150px;
+      background-color: rgb(55, 55, 55);
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .name {
+      font-weight: bold;
+      color: white;
+    }
+
+    .create-new {
+      color: rgb(150, 150, 150);
+      font-size: 25px;
+    }
+
+    .channel{
+      color: rgb(150, 150, 150);
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="first-sidebar">
+    <div>
+        <img class="picture" src="../../Projects/youtube-clone-webpage/channel-pictures/channel-1.jpeg">
+      </div>
+      <div>
+        <img class="picture" src="../../Projects/youtube-clone-webpage/channel-pictures/channel-2.jpeg">
+      </div>
+      <div>
+        <img class="picture" src="../../Projects/youtube-clone-webpage/channel-pictures/channel-3.jpeg">
+      </div>
+  </div>
+  <div class="second-sidebar">
+    <div class="header">
+      <div class="name">INFO</div>
+        <div class="create-new">+</div>
+    </div>
+    <div class="channel"># new-videos</div>
+    <div class="channel"># updates</div>
+    <div class="channel"># faq</div>
+  </div>
+</body>
+</html>

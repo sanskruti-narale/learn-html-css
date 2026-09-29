@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Exercise</title>
+
+    <style>
+
+      .sidebar {
+        background-color: green;
+        color: white;
+        position:fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 150px;
+      }
+
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      .modal {
+        background-color: white;
+        position: fixed;
+        top:200px;
+        bottom: 200px;
+        left: 100px;
+        right: 100px;
+        border-radius: 12px;
+        padding-left:20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height:40px;
+      }
+
+      .modal-title {
+        font-weight: bold;
+        font-size: 30px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="sidebar">
+      right sidebar
+    </div>
+
+    <div class="overlay">
+      <div class="modal">
+        <div class="modal-title">
+            Modal Title
+          </div>
+          <div class="modal-content">
+            This is a modal
+          </div>
+          <button >
+            Close
+          </button>
+      </div>
+    </div>
+  </body>
+</html>
